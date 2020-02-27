@@ -28,3 +28,7 @@ void Vector::SetY(int y_) {
 bool Vector::operator==(Vector vec) {
 	return x == vec.GetX() && y == vec.GetY();
 }
+
+bool Vector::operator!=(Vector vec) {
+	return x != vec.GetX() || y != vec.GetY();
+}

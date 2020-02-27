@@ -15,5 +15,6 @@ public:
 	void SetY(int);
 
 	bool operator==(Vector);
+	bool operator!=(Vector);
 };
 

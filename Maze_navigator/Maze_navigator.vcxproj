@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Console.h" />
     <ClInclude Include="Navigator.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
